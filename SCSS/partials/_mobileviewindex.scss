@@ -1,0 +1,41 @@
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        height: 430px;
+    }
+
+
+    body nav div ul li a {
+        padding: 20px 0px;
+        text-align: center;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+
+    // .nav-main {
+    //     display: block;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0px;
+    //     background: #222681;
+    //     height: 100%;
+    //     padding: 30px;
+    //     opacity: .9;
+    //     transform: translateX(-400px);
+    // }
+
+    iframe.video {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        padding-top: 100px;
+        display: flex;
+    }
+}
