@@ -60,7 +60,8 @@ legend {
   height: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  float: left; }
 
 .image-overlay {
   position: absolute;
@@ -77,7 +78,8 @@ legend {
   justify-content: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.4s; }
+  transition: opacity 0.4s;
+  float: left; }
 
 .image-overlay > * {
   transform: translateY(20px);
@@ -91,7 +93,8 @@ legend {
 
 .image-title {
   font-size: 2.3em;
-  font-weight: bold; }
+  font-weight: bold;
+  float: left; }
 
 .image-description {
   font-size: 1.25em;
@@ -149,6 +152,15 @@ iframe.video {
 .leermas:hover {
   color: whitesmoke; }
 
+.tickets {
+  font-size: large;
+  font-family: "pacifico" "cursive";
+  color: #0e0e53;
+  padding-left: 43%; }
+
+.tickets:hover {
+  color: whitesmoke; }
+
 .deportes {
   width: 100%;
   max-width: 1200px;
@@ -186,7 +198,17 @@ iframe.video {
   margin-right: 5%;
   margin-bottom: 5px; }
 
+.deportes iframe {
+  width: 500px;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5px; }
+
 .imagen2 {
+  width: 350px;
+  height: 250px; }
+
+.iframe {
   width: 350px;
   height: 250px; }
 

@@ -72,6 +72,7 @@ legend {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    float: left;
 }
 
 .image-overlay {
@@ -90,6 +91,7 @@ legend {
     text-align: center;
     opacity: 0;
     transition: opacity 0.4s;
+    float: left;
 }
 
 .image-overlay>* {
@@ -108,6 +110,7 @@ legend {
 .image-title {
     font-size: 2.3em;
     font-weight: bold;
+    float: left;
 }
 
 .image-description {
@@ -142,7 +145,6 @@ iframe.video {
 
 .container {
     display: inline;
-
 }
 
 .card {
@@ -179,6 +181,17 @@ iframe.video {
     color: whitesmoke;
 }
 
+.tickets {
+    font-size: large;
+    font-family: "pacifico""cursive";
+    color: #0e0e53;
+    padding-left: 43%;
+}
+
+.tickets:hover {
+    color: whitesmoke;
+}
+
 .deportes {
     width: 100%;
     max-width: 1200px;
@@ -199,7 +212,7 @@ iframe.video {
     text-align: justify;
 }
 
-.titulo2{
+.titulo2 {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 30px;
@@ -221,10 +234,23 @@ iframe.video {
     margin-bottom: 5px;
 }
 
+.deportes iframe {
+    width: 500px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+
 .imagen2 {
     width: 350px;
     height: 250px;
 }
+
+.iframe {
+    width: 350px;
+    height: 250px;
+}
+
 
 .imagen3 {
     width: 350px;
