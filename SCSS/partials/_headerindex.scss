@@ -1,0 +1,33 @@
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    padding-left: 17%;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 8%;
+    padding-top: 30px;
+    padding-left: 0.5%;
+    padding-bottom: 1%;
+    text-align: left;
+    align-items: left;
+    display: flex;
+}
+
+h2 {
+    font-size: 500%;
+    text-align: left;
+    align-items: left;
+    font-family: 'pacifico',
+        'cursive';
+    color: aliceblue;
+}
+
+header {
+    background-color: #4444ec;
+}
