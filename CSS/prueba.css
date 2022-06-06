@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   margin-right: 50px;
-  padding-left: 17%;
+  padding-left: 27%;
   padding-top: 2%; }
 
 .logo img {
@@ -20,7 +20,7 @@
   display: flex; }
 
 h2 {
-  font-size: 500%;
+  font-size: 450%;
   text-align: center;
   align-items: center;
   font-family: 'pacifico', 'cursive';
@@ -60,7 +60,7 @@ div .card {
   justify-content: space-evenly; }
 
 .card {
-  width: 30%;
+  width: 400px;
   height: 750px;
   background-color: transparent;
   box-shadow: 0 2px rgba(0, 0, 0, 0.2);
