@@ -11,7 +11,7 @@ nav {
     color: blue;
 }
 
-a {
+div a {
     color: white;
     text-decoration: none;
     font-family: 'pacifico', 'cursive';
@@ -22,6 +22,8 @@ a {
 
 ul {
     list-style: none;
+    width: 100%;
+    justify-content:space-evenly;
 }
 
 .nav-main {
@@ -45,6 +47,5 @@ ul {
     color: white;
 }
 
-.nav-main ul li a:hover {
-    border-bottom: 2px solid white;
-}
+
+

@@ -23,22 +23,27 @@ iframe.video {
     align-items: center;
 }
 
+div .card{
+justify-content: space-evenly;
+}
+
 .card:hover {
     transform: translateY(15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.container{
     display: inline;
+    justify-content: space-evenly;
 }
 
 .card {
-    width: 400px;
+    width: 30%;
     height: 750px;
     background-color: transparent;
     box-shadow: 0 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
+    margin: 1%;
     text-align: center;
     transition: all 0.25s;
     display: inline-block;
@@ -53,7 +58,6 @@ iframe.video {
 .card img {
     width: 330px;
     height: 220px;
-
 }
 
 .leermas {
